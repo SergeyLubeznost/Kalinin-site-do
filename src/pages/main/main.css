@@ -1,0 +1,60 @@
+.section-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    background: url("./image-main/Rectangle10_11zon.webp") no-repeat center;
+    width: 100%;
+    background-size: cover;
+    height: 943px;
+    padding: 0 9.3% 0 9.6%;
+}
+.logo-main{
+    height: 70,84px;
+    margin-top: 6%;
+}
+
+.logo-main img{
+    width: 309px;
+}
+
+.main-title{
+    font-family: 'Gotham';
+    margin-top: 135.16px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 85.25px;
+    margin-left: 3.3px;
+}
+.main-btn-group{
+    width: 486px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 77px;
+    margin-left: 0.6%;
+}
+
+.main-btn-catalog,.main-btn-contact{
+    width: 219.6px;
+    height: 3.8rem;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 23.54px;
+    border-radius: 10px;
+    letter-spacing: -1px;
+}
+.main-btn-catalog{
+    background-color: var(--main-bg-color);
+    color: #FFFFFF;
+}
+.main-btn-contact{
+    color:  var(--main-bg-color);
+    background-color: #FFFFFF;
+}

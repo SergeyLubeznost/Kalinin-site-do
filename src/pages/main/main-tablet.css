@@ -1,0 +1,28 @@
+@media (min-width: 540px) and (max-width: 968px) {
+    .main-container{
+        background: url("./image-main/mainTablet(1)_11zon.webp") no-repeat center;
+        height: 657.32px;
+    }
+    .logo-main{
+        position: relative;
+        left: -8.9%;
+        margin-top: 12%;
+
+    }
+    .logo-main img {
+        width: 255px;
+    }
+    .main-title {
+        margin-top: 117.16px;
+        font-size: 40px;
+        line-height: 62px;
+        margin-left: -52.7px;
+    }
+    .main-btn-group {
+        width: 456px;
+        margin-top: 33px;
+        position: relative;
+        margin-left: -8.4%;
+        bottom: 2%;
+    }
+}

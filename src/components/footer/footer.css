@@ -1,0 +1,43 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 0 9.3% 0 9.6%;
+    height:161px;
+    padding-top: 30px;
+}
+
+footer > .footer-info {
+    width: 367px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20.15px;
+    letter-spacing: 1%;
+
+}
+
+.group-footer{
+    width: 172px;
+    height: 100%;
+}
+
+.footer-title{
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27.9px;
+    letter-spacing: 1%;
+}
+
+.group-footer > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.social-icons{
+    width: 70px;
+    height: 43px;
+}

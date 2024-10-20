@@ -1,0 +1,42 @@
+@media(max-width:540px) {
+    .main-container{
+        background: url("./image-main/main-bck-mobile.webp") no-repeat center;
+        width: 100%;
+        background-size: cover;
+        height: 513px;
+        padding: 0 10px 0 10px;
+    }
+    .logo-main{
+        height: 43,33px;
+        margin-top: 70.75px;
+        margin-left: 0px;
+    }
+    .logo-main img{
+        width: 189px;
+    }
+        .main-title {
+            font-family: 'Gotham';
+            margin-top: 101.92px;
+            font-size: 25px;
+            line-height: 38.75px;
+            margin-left: 0px;
+    }
+    .main-btn-group{
+        width: 354px;
+        margin-top: 31px;
+        margin-left: 0px;
+    }
+
+    .main-btn-catalog,.main-btn-contact{
+        width: 172px;
+        height: 57px;
+        border: none;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.83px;
+        border-radius: 10px;
+        letter-spacing: -1px;
+    }
+    
+}

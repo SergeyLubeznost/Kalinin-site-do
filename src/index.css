@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('./fonts/GothamPro/gothampro_bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Montserrat'; /* Исправлено на правильное написание */
+  src: url('./fonts/montserrat/Montserrat-Medium.ttf') format('truetype'); /* Исправлено написание папки и файла */
+  font-weight: 500;
+}
+
+:root {
+  --main-bg-color: #EA899A;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
